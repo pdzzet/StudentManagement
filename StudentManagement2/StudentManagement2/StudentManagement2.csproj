@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <UserSecretsId>f180b190-f1b0-4719-a547-46cd002fcc27</UserSecretsId>
+    <!--<AspNetCoreHostingModel>OutOfProcess</AspNetCoreHostingModel>-->
+    
+    <!--InProcess的值指定我们想要使用进程内部托管模型，即在IIS工作进程
+    （w3wp.exe）中托管我们的ASP.NET Core应用程序-->
+    
+    <!--OutOfProcess的值指定我们要使用进程外托管模型，即将Web请求转发到
+    后端的ASP.NET Core中，而整个应用程序是运行在ASP.NET Core中内置的Kestrel中-->
+    
+    <!--Asp.Net Core默认采用的是OutOfProcess托管-->
+    
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.4" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.9.2" />
+    <!--
+        Metapackage(综合包)-Microsoft.AspNetCore.App
+        Metapackage本身是没有任何内容的
+        -->
+  </ItemGroup>
+
+  <ProjectExtensions><VisualStudio><UserProperties appsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
+
+</Project>

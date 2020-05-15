@@ -1,0 +1,5 @@
+D:\WorkSpace\mytest\StudentManagement2\StudentManagement2.Dal\bin\Debug\netcoreapp3.1\StudentManagement2.Dal.deps.json
+D:\WorkSpace\mytest\StudentManagement2\StudentManagement2.Dal\bin\Debug\netcoreapp3.1\StudentManagement2.Dal.dll
+D:\WorkSpace\mytest\StudentManagement2\StudentManagement2.Dal\obj\Debug\netcoreapp3.1\StudentManagement2.Dal.csprojAssemblyReference.cache
+D:\WorkSpace\mytest\StudentManagement2\StudentManagement2.Dal\obj\Debug\netcoreapp3.1\StudentManagement2.Dal.AssemblyInfoInputs.cache
+D:\WorkSpace\mytest\StudentManagement2\StudentManagement2.Dal\obj\Debug\netcoreapp3.1\StudentManagement2.Dal.AssemblyInfo.cs
